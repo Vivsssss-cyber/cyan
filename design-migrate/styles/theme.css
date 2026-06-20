@@ -1,0 +1,231 @@
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  /* ── Base ─────────────────────────────────────────── */
+  --font-size: 16px;
+
+  /* ── Shadcn/Tailwind semantic layer ──────────────── */
+  --background: #eff2f4;          /* page canvas — matches GridBackground */
+  --foreground: #002C33;
+  --card: #FFFFFF;
+  --card-foreground: #002C33;
+  --popover: #FFFFFF;
+  --popover-foreground: #002C33;
+  --primary: #00C1EB;
+  --primary-foreground: #FFFFFF;
+  --secondary: #E0F7FF;
+  --secondary-foreground: #002C33;
+  --muted: #F0F6FA;
+  --muted-foreground: #64748B;
+  --accent: #E0F7FF;
+  --accent-foreground: #002C33;
+  --destructive: #C0392B;
+  --destructive-foreground: #FFFFFF;
+  --border: #C8DDE6;
+  --input: transparent;
+  --input-background: #F0F6FA;
+  --switch-background: #C8DDE6;
+  --font-weight-medium: 500;
+  --font-weight-normal: 400;
+  --ring: #00C1EB;
+
+  /* ── Radius scale ─────────────────────────────────── */
+  --radius: 0.625rem;             /* 10px — base token */
+  --radius-sm: calc(var(--radius) - 4px);   /* 6px  — small pills */
+  --radius-md: calc(var(--radius) - 2px);   /* 8px  — inputs, dropdowns */
+  --radius-lg: var(--radius);               /* 10px — default */
+  --radius-xl: calc(var(--radius) + 4px);   /* 14px — panels */
+  --radius-2xl: 1rem;             /* 16px — all content cards (rounded-2xl) */
+  --radius-pill: 9999px;          /* pill — GameButton, PrimaryCTA */
+
+  /* ── Elevation ladder ─────────────────────────────── */
+  --shadow-elev-0: none;
+  --shadow-elev-1: 0px 2px 4px rgba(0, 0, 0, 0.04);
+  --shadow-elev-2: 0px 3px 8px rgba(0, 0, 0, 0.06);
+  --shadow-elev-3: 0px 2.5px 10px 0px rgba(77, 181, 182, 0.29);
+
+  /* ── Layout ───────────────────────────────────────── */
+  --max-w-page: 1288px;
+
+  /* ── Typography ───────────────────────────────────── */
+  --font-ui: 'Outfit', system-ui, -apple-system, sans-serif;
+  --font-mono: 'Courier New', 'Lucida Console', monospace;
+
+  /* ── Game Experience Tokens ───────────────────────── */
+
+  /* Cyan / Teal brand scale */
+  --game-cyan-bright: #00D2FF;    /* max brightness — hover accent */
+  --game-cyan: #00C1EB;           /* primary interactive accent */
+  --game-teal-light: #00A0C2;    /* hover states, icon accents */
+  --game-teal-mid: #006E85;      /* active states, section labels */
+  --game-teal: #005F58;           /* CTA gradient start */
+  --game-teal-dark: #003C49;     /* CTA gradient end */
+  --game-dark: #002C33;           /* deep ink, sidebar bg */
+
+  /* Text */
+  --game-text: #202326;           /* primary body text */
+  --game-text-secondary: #606569; /* secondary / descriptions */
+  --game-text-muted: #94A3B8;    /* placeholder, timestamps */
+
+  /* Surfaces */
+  --game-canvas: #eff2f4;         /* page background (with grid texture) */
+  --game-surface: rgba(255, 255, 255, 0.6);  /* glass card background */
+  --game-surface-solid: #FFFFFF;  /* opaque surface */
+  --game-cyan-tint: #E0F7FF;     /* subtle cyan tint — tags, pills, hover */
+
+  /* Semantic states */
+  --game-positive: #156162;       /* revenue up, retention gain */
+  --game-success: #166534;        /* confirmed complete states */
+  --game-negative: #c65252;       /* cost up, turnover, danger */
+  --game-warning: #B45309;        /* phantom stock, unsold, lag */
+
+  /* Card anatomy */
+  --game-card-border: 1.4px solid white;
+  --game-card-selected-border: 1.4px solid rgba(21, 97, 98, 0.33);
+  --game-card-selected-shadow: var(--shadow-elev-3);
+
+  /* Gradients */
+  --game-gradient-strategic: linear-gradient(135deg, #006E85, #003D47);
+  --game-gradient-report: linear-gradient(to right, #F0F9FC, #FFFFFF);
+
+  /* ── Cyan Innovations Brand Tokens ────────────────── */
+  --cyan-primary: #00D2FF;
+  --cyan-mid: #00C1EB;
+  --cyan-deep: #00A0C2;
+  --cyan-teal: #006E85;
+  --cyan-dark: #003D47;           /* chart-2, GameButton inner gradient */
+  --dark-bg: #002C33;
+  --surface: #FFFFFF;
+  --text-primary: #002C33;
+  --text-body: #334155;
+  --text-muted: #64748B;
+  --sv-border: #C8DDE6;
+  --coral: #C0392B;
+  --amber: #B45309;
+  --positive: #166534;
+  --cyan-tint: #E0F7FF;
+
+  /* ── Chart palette ────────────────────────────────── */
+  --chart-1: #00C1EB;             /* primary series */
+  --chart-2: #003D47;             /* secondary series */
+  --chart-3: #7C3AED;             /* tertiary — purple, data viz only */
+  --chart-4: #B45309;             /* warning / waste series */
+  --chart-5: #C0392B;             /* critical series */
+  --chart-6: #4DB5B6;             /* retention / soft teal */
+
+  /* ── Sidebar ──────────────────────────────────────── */
+  --sidebar: #002C33;
+  --sidebar-foreground: #FFFFFF;
+  --sidebar-primary: #00C1EB;
+  --sidebar-primary-foreground: #FFFFFF;
+  --sidebar-accent: #003D47;
+  --sidebar-accent-foreground: #FFFFFF;
+  --sidebar-border: #006E85;
+  --sidebar-ring: #00C1EB;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-input-background: var(--input-background);
+  --color-switch-background: var(--switch-background);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --color-chart-6: var(--chart-6);
+  --radius-sm: var(--radius-sm);
+  --radius-md: var(--radius-md);
+  --radius-lg: var(--radius-lg);
+  --radius-xl: var(--radius-xl);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-ui);
+  }
+
+  html {
+    font-size: var(--font-size);
+  }
+
+  /* Numeric alignment utility — apply wherever tabular-nums is needed */
+  .tabular {
+    font-variant-numeric: tabular-nums;
+  }
+
+  h1 {
+    font-size: var(--text-2xl);
+    font-weight: 800;
+    line-height: 1.2;
+    letter-spacing: -0.5px;
+  }
+
+  h2 {
+    font-size: var(--text-xl);
+    font-weight: 800;
+    line-height: 1.3;
+    letter-spacing: -0.5px;
+  }
+
+  h3 {
+    font-size: var(--text-lg);
+    font-weight: 700;
+    line-height: 1.4;
+  }
+
+  h4 {
+    font-size: var(--text-base);
+    font-weight: 600;
+    line-height: 1.5;
+  }
+
+  label {
+    font-size: var(--text-base);
+    font-weight: var(--font-weight-medium);
+    line-height: 1.5;
+  }
+
+  button {
+    font-size: var(--text-base);
+    font-weight: var(--font-weight-medium);
+    line-height: 1.5;
+  }
+
+  input {
+    font-size: var(--text-base);
+    font-weight: var(--font-weight-normal);
+    line-height: 1.5;
+  }
+}

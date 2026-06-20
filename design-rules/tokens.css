@@ -1,0 +1,61 @@
+:root {
+  --sv-font-ui: "Outfit", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --sv-font-mono: "Courier New", "Lucida Console", monospace;
+
+  --sv-background: #eff2f4;
+  --sv-foreground: #002c33;
+  --sv-text: #202326;
+  --sv-text-secondary: #606569;
+  --sv-text-muted: #94a3b8;
+
+  --sv-card: rgba(255, 255, 255, 0.6);
+  --sv-card-solid: #ffffff;
+  --sv-muted: #f0f6fa;
+  --sv-muted-700: #8A9093;
+  --sv-cyan-tint: #e0f7ff;
+  --sv-border: #c8dde6;
+
+  --sv-cyan-bright: #00d2ff;
+  --sv-cyan: #00c1eb;
+  /* Primary CTA surface — canonical gradient + pill radius for all primary buttons */
+  --sv-cta-gradient: linear-gradient(180deg, #00b1d6 -180.36%, #0090ad 105.36%);
+  --sv-cta-radius: 43px;
+  --sv-teal-light: #00a0c2;
+  --sv-teal-mid: #006e85;
+  --sv-teal: #005f58;
+  --sv-teal-dark: #003c49;
+  --sv-ink: #002c33;
+
+  --sv-positive: #156162;
+  --sv-success: #166534;
+  --sv-warning: #b45309;
+  --sv-negative: #c65252;
+  --sv-destructive: #c0392b;
+
+  --sv-chart-1: #00c1eb;
+  --sv-chart-2: #003d47;
+  --sv-chart-3: #7c3aed;
+  --sv-chart-4: #b45309;
+  --sv-chart-5: #c0392b;
+  --sv-chart-6: #4db5b6;
+
+  --sv-radius-sm: 6px;
+  --sv-radius-md: 8px;
+  --sv-radius-lg: 10px;
+  --sv-radius-xl: 14px;
+  --sv-radius-2xl: 16px;
+  --sv-radius-pill: 9999px;
+
+  --sv-shadow-1: 0px 2px 4px rgba(0, 0, 0, 0.04);
+  --sv-shadow-2: 0px 3px 8px rgba(0, 0, 0, 0.06);
+  --sv-shadow-3: 0px 2.5px 10px 0px rgba(77, 181, 182, 0.29);
+
+  --sv-gradient-strategic: linear-gradient(135deg, #006e85, #003d47);
+  --sv-gradient-report: linear-gradient(to right, #f0f9fc, #ffffff);
+  --sv-grid-size: 63px;
+  --sv-max-page-width: 1312px;
+}
+
+.sv-tabular {
+  font-variant-numeric: tabular-nums;
+}

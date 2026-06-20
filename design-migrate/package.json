@@ -1,0 +1,20 @@
+{
+  "name": "cyan-design-migrate",
+  "version": "1.0.0",
+  "description": "Portable Cyan / Startup Valley design theme bundle. Copy contents into target Next.js project.",
+  "private": true,
+  "peerDependencies": {
+    "next": ">=15.0.0",
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0"
+  },
+  "dependencies": {
+    "motion": "^12.23.24",
+    "recharts": "^2.15.2"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.12",
+    "tailwindcss": "^4.1.12",
+    "typescript": "^5.8.3"
+  }
+}

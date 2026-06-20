@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Outfit:wght@400;500;600;700;800;900&display=swap");
+
+:root {
+  --font-ui: "Outfit", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-mono: "Courier New", "Lucida Console", monospace;
+
+  --bg-page: #eff2f4;
+  --fg-1: #202326;
+  --fg-2: #606569;
+  --fg-muted: #94a3b8;
+
+  --cyan-50: #f0f9fc;
+  --cyan-100: #e0f7ff;
+  --cyan-300: #00d2ff;
+  --cyan-500: #00c1eb;
+  --cyan-600: #00a0c2;
+  --teal-700: #006e85;
+  --teal-800: #005f58;
+  --ink: #002c33;
+
+  --surface-glass: rgba(255, 255, 255, 0.6);
+  --surface-solid: #ffffff;
+  --muted: #f0f6fa;
+  --border: #c8dde6;
+
+  --positive: #156162;
+  --success: #166534;
+  --warning: #b45309;
+  --negative: #c65252;
+
+  --grid-line: rgba(35, 35, 35, 0.03);
+  --grid-size: 63px;
+
+  --radius-card: 16px;
+  --shadow-1: 0px 2px 4px rgba(0, 0, 0, 0.04);
+  --shadow-2: 0px 3px 8px rgba(0, 0, 0, 0.06);
+  --shadow-3: 0px 2.5px 10px 0px rgba(77, 181, 182, 0.29);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100%;
+}
+
+body {
+  min-height: 100vh;
+}
+
+body,
+body *:not([style*="Nanum Pen Script"]) {
+  font-family: var(--font-ui) !important;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+button {
+  transition: transform 150ms ease, box-shadow 150ms ease, background 150ms ease, border-color 150ms ease;
+}
+
+button:hover {
+  transform: translateY(-1px);
+}
+
+button:active {
+  transform: translateY(0);
+}
+
+svg text:not([font-family="Nanum Pen Script"]) {
+  font-family: var(--font-ui) !important;
+}

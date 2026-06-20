@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="184" height="112" viewBox="0 0 184 112" role="img" aria-labelledby="title desc" shape-rendering="crispEdges">
+  <title id="title">Number one pixel trophy standing</title>
+  <desc id="desc">Monochrome 16-bit pixel trophy, number one medallion, and final standing metrics on torn paper.</desc>
+  <defs>
+    <pattern id="dither" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="4" fill="#d7d7d7"/>
+      <rect width="2" height="2" fill="#9f9f9f"/>
+      <rect x="2" y="2" width="2" height="2" fill="#9f9f9f"/>
+    </pattern>
+  </defs>
+  <polygon points="5,12 24,9 45,12 66,9 91,12 116,8 143,12 177,9 180,96 160,100 132,97 105,102 78,98 49,102 22,98 4,101" fill="#ededed" stroke="#111" stroke-width="2"/>
+  <g transform="translate(16 17)">
+    <rect x="40" y="68" width="50" height="8" fill="#111"/>
+    <rect x="49" y="55" width="32" height="13" fill="#f7f7f7" stroke="#111" stroke-width="3"/>
+    <rect x="58" y="43" width="14" height="12" fill="#111"/>
+    <rect x="36" y="4" width="58" height="9" fill="#111"/>
+    <rect x="43" y="13" width="44" height="34" fill="#f7f7f7" stroke="#111" stroke-width="3"/>
+    <rect x="49" y="19" width="32" height="18" fill="url(#dither)"/>
+    <rect x="22" y="17" width="21" height="9" fill="#fff" stroke="#111" stroke-width="3"/>
+    <rect x="14" y="26" width="17" height="18" fill="#f7f7f7" stroke="#111" stroke-width="3"/>
+    <rect x="87" y="17" width="21" height="9" fill="#fff" stroke="#111" stroke-width="3"/>
+    <rect x="99" y="26" width="17" height="18" fill="#f7f7f7" stroke="#111" stroke-width="3"/>
+    <rect x="59" y="23" width="8" height="15" fill="#111"/>
+    <rect x="53" y="37" width="21" height="5" fill="#111"/>
+  </g>
+  <g transform="translate(116 16)">
+    <rect x="0" y="0" width="44" height="44" fill="#f8f8f8" stroke="#111" stroke-width="3"/>
+    <rect x="5" y="5" width="34" height="34" fill="url(#dither)" stroke="#111" stroke-width="2"/>
+    <rect x="17" y="10" width="8" height="19" fill="#111"/>
+    <rect x="11" y="29" width="21" height="5" fill="#111"/>
+  </g>
+  <g font-family="Courier New, monospace" font-variant-numeric="tabular-nums" font-weight="700">
+    <rect x="12" y="12" width="42" height="20" fill="#111"/>
+    <text x="16" y="25" fill="#fff" font-size="10">#1</text>
+    <text x="12" y="45" fill="#111" font-size="8">SHARE</text>
+    <text x="12" y="57" fill="#111" font-size="12">32.4%</text>
+    <text x="118" y="78" fill="#111" font-size="8">VALUE</text>
+    <text x="118" y="92" fill="#111" font-size="12">$8.45M</text>
+  </g>
+</svg>

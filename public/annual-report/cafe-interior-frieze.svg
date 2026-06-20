@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="106" viewBox="0 0 920 106" role="img" aria-label="Dhaulagiri Cafe monochrome pixel interior frieze" shape-rendering="crispEdges">
+  <defs>
+    <pattern id="dither" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="4" fill="#d8d8d0"/>
+      <rect width="2" height="2" fill="#999"/>
+      <rect x="2" y="2" width="2" height="2" fill="#999"/>
+    </pattern>
+  </defs>
+  <polygon points="10,10 44,7 78,10 116,8 154,10 196,7 244,10 292,7 334,10 378,8 421,10 466,7 508,10 556,7 604,10 648,8 692,10 738,7 786,10 834,7 876,10 910,8 910,94 878,98 834,95 784,100 736,96 692,100 648,95 604,99 556,96 508,100 466,95 420,99 378,96 334,100 292,95 244,99 196,96 154,100 116,96 78,99 42,96 10,99" fill="#efeee6" stroke="#111" stroke-width="3"/>
+  <rect x="31" y="18" width="858" height="16" fill="#f8f8f2" stroke="#111" stroke-width="3"/>
+  <g font-family="Courier New, monospace" font-weight="700" fill="#111">
+    <text x="55" y="30" font-size="15">DHAULAGIRI CAFE</text>
+    <text x="250" y="30" font-size="13">SPECIALTY BREW</text>
+    <text x="415" y="30" font-size="15">DHAULAGIRI CAFE</text>
+    <text x="610" y="30" font-size="13">SPECIALTY BREW</text>
+    <text x="790" y="30" font-size="15">DHAULAGIRI</text>
+  </g>
+  <g fill="#f8f8f2" stroke="#111" stroke-width="3">
+    <rect x="40" y="39" width="74" height="36"/>
+    <rect x="142" y="39" width="23" height="44"/>
+    <rect x="176" y="39" width="103" height="42"/>
+    <rect x="307" y="39" width="74" height="36"/>
+    <rect x="414" y="39" width="23" height="44"/>
+    <rect x="448" y="39" width="103" height="42"/>
+    <rect x="578" y="39" width="23" height="44"/>
+    <rect x="612" y="39" width="103" height="42"/>
+    <rect x="744" y="39" width="74" height="36"/>
+    <rect x="848" y="39" width="23" height="44"/>
+  </g>
+  <g fill="url(#dither)">
+    <rect x="190" y="43" width="24" height="34"/>
+    <rect x="230" y="43" width="40" height="34"/>
+    <rect x="462" y="43" width="24" height="34"/>
+    <rect x="502" y="43" width="40" height="34"/>
+    <rect x="626" y="43" width="24" height="34"/>
+    <rect x="666" y="43" width="40" height="34"/>
+  </g>
+  <g fill="#111">
+    <rect x="50" y="48" width="16" height="4"/><rect x="73" y="48" width="16" height="4"/><rect x="96" y="48" width="12" height="4"/>
+    <rect x="50" y="61" width="16" height="4"/><rect x="73" y="61" width="16" height="4"/><rect x="96" y="61" width="12" height="4"/>
+    <rect x="318" y="48" width="16" height="4"/><rect x="341" y="48" width="16" height="4"/><rect x="364" y="48" width="12" height="4"/>
+    <rect x="318" y="61" width="16" height="4"/><rect x="341" y="61" width="16" height="4"/><rect x="364" y="61" width="12" height="4"/>
+    <rect x="754" y="48" width="16" height="4"/><rect x="777" y="48" width="16" height="4"/><rect x="800" y="48" width="12" height="4"/>
+    <rect x="754" y="61" width="16" height="4"/><rect x="777" y="61" width="16" height="4"/><rect x="800" y="61" width="12" height="4"/>
+    <rect x="142" y="84" width="370" height="5"/>
+    <rect x="576" y="84" width="296" height="5"/>
+  </g>
+  <g fill="#d8d8d0" stroke="#111" stroke-width="3">
+    <rect x="129" y="69" width="16" height="22"/>
+    <rect x="304" y="66" width="20" height="28"/>
+    <rect x="472" y="66" width="20" height="28"/>
+    <rect x="685" y="66" width="20" height="28"/>
+    <rect x="842" y="66" width="20" height="28"/>
+  </g>
+  <g fill="#111">
+    <rect x="67" y="88" width="22" height="5"/><rect x="71" y="93" width="5" height="10"/><rect x="82" y="93" width="5" height="10"/>
+    <rect x="111" y="88" width="22" height="5"/><rect x="115" y="93" width="5" height="10"/><rect x="126" y="93" width="5" height="10"/>
+    <rect x="184" y="88" width="22" height="5"/><rect x="188" y="93" width="5" height="10"/><rect x="199" y="93" width="5" height="10"/>
+    <rect x="342" y="88" width="22" height="5"/><rect x="346" y="93" width="5" height="10"/><rect x="357" y="93" width="5" height="10"/>
+    <rect x="536" y="88" width="22" height="5"/><rect x="540" y="93" width="5" height="10"/><rect x="551" y="93" width="5" height="10"/>
+    <rect x="634" y="88" width="22" height="5"/><rect x="638" y="93" width="5" height="10"/><rect x="649" y="93" width="5" height="10"/>
+    <rect x="762" y="88" width="22" height="5"/><rect x="766" y="93" width="5" height="10"/><rect x="777" y="93" width="5" height="10"/>
+  </g>
+  <g fill="#f8f8f2" stroke="#111" stroke-width="2">
+    <rect x="210" y="63" width="32" height="13"/>
+    <rect x="494" y="63" width="32" height="13"/>
+  </g>
+</svg>

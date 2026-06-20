@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="112" height="128" viewBox="0 0 112 128" role="img" aria-label="Balanced Buyers pixel mascot" shape-rendering="crispEdges">
+  <defs>
+    <pattern id="dither" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="4" fill="#d8d8d0"/>
+      <rect width="2" height="2" fill="#999"/>
+      <rect x="2" y="2" width="2" height="2" fill="#999"/>
+    </pattern>
+  </defs>
+  <g transform="translate(31 7)">
+    <rect x="23" y="0" width="6" height="6" fill="#f8f8f2" stroke="#111" stroke-width="3"/>
+    <rect x="6" y="7" width="40" height="5" fill="#111"/>
+    <rect x="22" y="7" width="6" height="28" fill="#111"/>
+    <rect x="4" y="20" width="16" height="13" fill="#f8f8f2" stroke="#111" stroke-width="3"/>
+    <rect x="32" y="20" width="16" height="13" fill="#f8f8f2" stroke="#111" stroke-width="3"/>
+  </g>
+  <g transform="translate(20 32)">
+    <rect x="24" y="0" width="39" height="11" fill="#111"/>
+    <rect x="29" y="4" width="28" height="10" fill="url(#dither)"/>
+    <rect x="20" y="10" width="44" height="37" fill="#f8f8f2" stroke="#111" stroke-width="4"/>
+    <rect x="13" y="22" width="10" height="14" fill="#f8f8f2" stroke="#111" stroke-width="4"/>
+    <rect x="28" y="24" width="6" height="7" fill="#111"/>
+    <rect x="51" y="24" width="6" height="7" fill="#111"/>
+    <rect x="42" y="32" width="4" height="9" fill="#111"/>
+    <rect x="41" y="45" width="16" height="3" fill="#777"/>
+    <rect x="18" y="48" width="48" height="36" fill="#d7d7cf" stroke="#111" stroke-width="4"/>
+    <rect x="21" y="84" width="17" height="34" fill="#f1f1e8" stroke="#111" stroke-width="4"/>
+    <rect x="50" y="84" width="17" height="34" fill="#d7d7cf" stroke="#111" stroke-width="4"/>
+    <rect x="10" y="55" width="11" height="36" fill="#f8f8f2" stroke="#111" stroke-width="4"/>
+    <rect x="5" y="87" width="19" height="22" fill="#f8f8f2" stroke="#111" stroke-width="4"/>
+    <rect x="63" y="55" width="14" height="18" fill="#f8f8f2" stroke="#111" stroke-width="4"/>
+    <rect x="77" y="57" width="24" height="15" fill="#f8f8f2" stroke="#111" stroke-width="4"/>
+    <rect x="82" y="51" width="13" height="6" fill="#111"/>
+    <rect x="87" y="43" width="3" height="8" fill="#111"/>
+    <rect x="93" y="42" width="3" height="8" fill="#111"/>
+    <rect x="24" y="116" width="21" height="7" fill="#111"/>
+    <rect x="53" y="116" width="24" height="7" fill="#111"/>
+    <rect x="25" y="84" width="11" height="24" fill="url(#dither)"/>
+    <rect x="53" y="84" width="10" height="28" fill="url(#dither)"/>
+  </g>
+  <g font-family="Courier New, monospace" font-weight="700">
+    <rect x="15" y="116" width="82" height="10" fill="#f8f8f2" stroke="#111" stroke-width="2"/>
+    <text x="20" y="124" fill="#111" font-size="7">BALANCED BUYERS</text>
+  </g>
+</svg>

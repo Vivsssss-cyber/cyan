@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="112" height="128" viewBox="0 0 112 128" role="img" aria-label="Value Seekers pixel mascot" shape-rendering="crispEdges">
+  <defs>
+    <pattern id="dither" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="4" fill="#deded8"/>
+      <rect width="2" height="2" fill="#aaa"/>
+      <rect x="2" y="2" width="2" height="2" fill="#aaa"/>
+    </pattern>
+  </defs>
+  <g transform="translate(26 9)">
+    <rect x="25" y="0" width="22" height="18" fill="#f8f8f2" stroke="#111" stroke-width="3"/>
+    <rect x="31" y="5" width="5" height="5" fill="#111"/>
+    <rect x="41" y="10" width="5" height="5" fill="#111"/>
+    <rect x="27" y="17" width="18" height="3" fill="#111"/>
+    <rect x="35" y="2" width="3" height="17" fill="#111" transform="rotate(45 36 10)"/>
+  </g>
+  <g transform="translate(20 26)">
+    <rect x="27" y="0" width="31" height="12" fill="#111"/>
+    <rect x="20" y="10" width="44" height="37" fill="#f8f8f2" stroke="#111" stroke-width="4"/>
+    <rect x="13" y="22" width="10" height="14" fill="#f8f8f2" stroke="#111" stroke-width="4"/>
+    <rect x="28" y="24" width="6" height="7" fill="#111"/>
+    <rect x="51" y="24" width="6" height="7" fill="#111"/>
+    <rect x="42" y="32" width="4" height="9" fill="#111"/>
+    <rect x="34" y="44" width="20" height="3" fill="#111"/>
+    <rect x="18" y="48" width="48" height="36" fill="#f1f1e8" stroke="#111" stroke-width="4"/>
+    <rect x="36" y="60" width="18" height="5" fill="#111"/>
+    <rect x="32" y="66" width="26" height="5" fill="#111"/>
+    <rect x="21" y="84" width="17" height="34" fill="#f1f1e8" stroke="#111" stroke-width="4"/>
+    <rect x="50" y="84" width="17" height="34" fill="#d7d7cf" stroke="#111" stroke-width="4"/>
+    <rect x="10" y="55" width="11" height="36" fill="#f8f8f2" stroke="#111" stroke-width="4"/>
+    <rect x="5" y="87" width="19" height="22" fill="#f8f8f2" stroke="#111" stroke-width="4"/>
+    <rect x="63" y="55" width="14" height="18" fill="#f8f8f2" stroke="#111" stroke-width="4"/>
+    <rect x="76" y="54" width="31" height="27" fill="#f8f8f2" stroke="#111" stroke-width="4"/>
+    <rect x="24" y="116" width="21" height="7" fill="#111"/>
+    <rect x="53" y="116" width="24" height="7" fill="#111"/>
+    <rect x="17" y="36" width="5" height="11" fill="url(#dither)"/>
+    <rect x="55" y="77" width="10" height="28" fill="url(#dither)"/>
+  </g>
+  <g font-family="Courier New, monospace" font-weight="700">
+    <rect x="20" y="116" width="72" height="10" fill="#f8f8f2" stroke="#111" stroke-width="2"/>
+    <text x="25" y="124" fill="#111" font-size="7">VALUE SEEKERS</text>
+  </g>
+</svg>

@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/amuly/.claude/skills/ui-ux-pro-max/**)",
+      "Bash(python scripts/search.py \"startup business simulation game annual report dashboard data-dense playful cyan glass\" --design-system)",
+      "Bash(ls src *)",
+      "Bash(find . -iname \"*demo*\" -not -path \"*/node_modules/*\" -not -path \"*/.git/*\")",
+      "Skill(browse)",
+      "Skill(browse:*)"
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: EPERM: operation not permitted, rename 'C:\Users\amuly\Documents\Work\Cyan\startup design 1\.next\cache\webpack\server-development\5.pack.gz_' -> 'C:\Users\amuly\Documents\Work\Cyan\startup design 1\.next\cache\webpack\server-development\5.pack.gz'
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'C:\Users\amuly\Documents\Work\Cyan\startup design 1\.next\cache\webpack\client-development\7.pack.gz_' -> 'C:\Users\amuly\Documents\Work\Cyan\startup design 1\.next\cache\webpack\client-development\7.pack.gz'
+ ⨯ TypeError: __webpack_modules__[moduleId] is not a function
+    at Object.__webpack_require__ [as require] (C:\Users\amuly\Documents\Work\Cyan\startup design 1\.next\server\webpack-runtime.js:33:42)
+    at JSON.parse (<anonymous>) {
+  digest: '1666419905'
+}
+TypeError: __webpack_modules__[moduleId] is not a function
+    at Object.__webpack_require__ [as require] (C:\Users\amuly\Documents\Work\Cyan\startup design 1\.next\server\webpack-runtime.js:33:42)
+    at JSON.parse (<anonymous>)
+ ⨯ TypeError: __webpack_modules__[moduleId] is not a function
+    at Object.__webpack_require__ [as require] (C:\Users\amuly\Documents\Work\Cyan\startup design 1\.next\server\webpack-runtime.js:33:42)
+    at JSON.parse (<anonymous>) {
+  page: '/ref/game/annual-report'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\amuly\Documents\Work\Cyan\startup design 1\.next\server\app-paths-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\amuly\\Documents\\Work\\Cyan\\startup design 1\\.next\\server\\app-paths-manifest.json',
+  page: '/_next/static/css/app/layout.css'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\amuly\Documents\Work\Cyan\startup design 1\.next\server\pages-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\amuly\\Documents\\Work\\Cyan\\startup design 1\\.next\\server\\pages-manifest.json'
+}
+ ⨯ Failed to generate static paths for /[[...slug]]:
+[Error: ENOENT: no such file or directory, open 'C:\Users\amuly\Documents\Work\Cyan\startup design 1\.next\build-manifest.json'] {
+  type: 'Error',
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\amuly\\Documents\\Work\\Cyan\\startup design 1\\.next\\build-manifest.json'
+}
+ ⨯ Failed to generate static paths for /[[...slug]]:
+[Error: ENOENT: no such file or directory, open 'C:\Users\amuly\Documents\Work\Cyan\startup design 1\.next\build-manifest.json'] {
+  type: 'Error',
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\amuly\\Documents\\Work\\Cyan\\startup design 1\\.next\\build-manifest.json'
+}
+ ⨯ Failed to generate static paths for /[[...slug]]:
+[Error: ENOENT: no such file or directory, open 'C:\Users\amuly\Documents\Work\Cyan\startup design 1\.next\build-manifest.json'] {
+  type: 'Error',
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\amuly\\Documents\\Work\\Cyan\\startup design 1\\.next\\build-manifest.json'
+}
+ ⨯ Failed to generate static paths for /[[...slug]]:
+[Error: ENOENT: no such file or directory, open 'C:\Users\amuly\Documents\Work\Cyan\startup design 1\.next\build-manifest.json'] {
+  type: 'Error',
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\amuly\\Documents\\Work\\Cyan\\startup design 1\\.next\\build-manifest.json'
+}
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
