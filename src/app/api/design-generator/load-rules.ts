@@ -15,9 +15,11 @@ export function loadDesignRules(): string {
     { name: "tokens.css", label: "CSS DESIGN TOKENS (--sv-* variables)" },
   ];
 
-  const sections = files.map(({ name, label }) => {
-    const content = fs.readFileSync(path.join(base, name), "utf-8");
-    return `=== ${label} ===\n${content}`;
+  const sections = files.flatMap(({ name, label }) => {
+    const filePath = path.join(base, name);
+    if (!fs.existsSync(filePath)) return [];
+    const content = fs.readFileSync(filePath, "utf-8");
+    return [`=== ${label} ===\n${content}`];
   });
 
   cached = sections.join("\n\n");
